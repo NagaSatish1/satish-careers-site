@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="qalb" src="qalb.jpg" alt=QLAB>
+    </div>
+    <img id="satish" src="satish.jpg" alt=HTML height="400" width="100">
+    <h1>About html</h1>
+    <div id="about">
+        <div id="discription">
+            <p style="margin-top: 0;">
+                HTML, which stands for Hypertext Markup Language,
+                is the standard markup language for creating web pages.
+                It defines the structure and content of web documents,
+                allowing web browsers to interpret and display the content.
+                HTML uses a series of tags to format text and embed
+                multimedia elements like images and videos. Other
+                technologies, such as CSS for styling and JavaScript
+                for interactivity, are often used alongside HTML to enhance
+                web page functionality and appearance.
+            </p>
+            <p>
+                We offer 2 industry-focused bootcamp:
+            </p>
+            <ol>
+                <li>
+                    <a href="https://youtu.be/dX8396ZmSPk" target="_blank">
+                        Full course to Learn HTML & CSS
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/PkZNo7MFNFg" target="_blank">
+                        Full course to learn JavaScript
+                    </a>
+                </li>
+            </ol>
+        </div>
+        <div id="image">
+            <img id="teamimage" src="team.jpg" alt="Team" height=300 width="35 0">
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="job">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted on</th>
+            </tr>
+
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>15,00,000</td>
+                <td>Feb 14,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Backend Developer</td>
+                <td>Chennai</td>
+                <td>India</td>
+                <td>10,00,000</td>
+                <td>Mar 30,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Development</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>20,00,000</td>
+                <td>Apl 1,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td colspan="2">Australia</td>
+                <td>50,00,000</td>
+                <td>May 6,2025</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit your Application</h2>
+        <form id="application-form">
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" required placeholder="John@gmail.com">
+            </div>
+            <div class="form-group">
+                <lable for="phone">Phone</lable><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+910000000000">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="Date Of Birth" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option>Select Position</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Backend">Backend Developer</option>
+                    <option value="full stack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <lable for="resume">Upload Resume</lable><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain what makes you sutable for the job.."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Application" >
+            </div>
+
+
+        </form>
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.w3schools.com/html/" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/html_examples.asp" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <spam class="copyright">© 2025,HTML</spam>
+    </div>
+
+
+</body>
+
+</html>
